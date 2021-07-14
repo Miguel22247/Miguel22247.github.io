@@ -1,0 +1,14 @@
+header {
+	background-color: #000000;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	opacity: 0.9;
+}
+
+header h1 {
+	position: relative;
+	top: 21px;
+	text-align: left;
+	margin-left: 5px;
+}
