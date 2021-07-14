@@ -8,7 +8,17 @@ header {
 
 header h1 {
 	position: relative;
-	top: 21px;
+	top: 24px;
 	text-align: left;
 	margin-left: 5px;
+}
+
+.list {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	margin-right: 5%;
+    margin-left: auto;
+    display:block;
 }
