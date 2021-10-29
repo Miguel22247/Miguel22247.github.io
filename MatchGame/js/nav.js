@@ -15,7 +15,7 @@ feature.addEventListener('click', (e) => {
 });
 about.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 200, left: 0, behavior: 'smooth' });
 });
 team.addEventListener('click', (e) => {
     e.preventDefault();
