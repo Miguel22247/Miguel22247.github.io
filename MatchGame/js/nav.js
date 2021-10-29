@@ -11,15 +11,15 @@ home.addEventListener('click', (e) => {
 });
 feature.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 50, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 350, left: 0, behavior: 'smooth' });
 });
 about.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 200, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 1000, left: 0, behavior: 'smooth' });
 });
 team.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 1900, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 1750, left: 0, behavior: 'smooth' });
 });
 contact.addEventListener('click', (e) => {
     e.preventDefault();
