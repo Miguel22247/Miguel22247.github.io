@@ -11,7 +11,7 @@ home.addEventListener('click', (e) => {
 });
 feature.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 50, left: 0, behavior: 'smooth' });
 });
 about.addEventListener('click', (e) => {
     e.preventDefault();
@@ -19,9 +19,9 @@ about.addEventListener('click', (e) => {
 });
 team.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 1900, left: 0, behavior: 'smooth' });
 });
 contact.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 2000, left: 0, behavior: 'smooth' });
 });
