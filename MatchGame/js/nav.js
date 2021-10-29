@@ -1,6 +1,7 @@
 const home = document.querySelector('#home');
 const feature = document.querySelector('#features');
 const about = document.querySelector('#about');
+const demo = document.querySelector('#demo');
 const team = document.querySelector('#team');
 const contact = document.querySelector('#contact');
 
@@ -17,9 +18,13 @@ about.addEventListener('click', (e) => {
     e.preventDefault();
     window.scroll({ top: 1000, left: 0, behavior: 'smooth' });
 });
+demo.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scroll({ top: 1750, left: 0, behavior: 'smooth'});
+});
 team.addEventListener('click', (e) => {
     e.preventDefault();
-    window.scroll({ top: 1750, left: 0, behavior: 'smooth' });
+    window.scroll({ top: 1800, left: 0, behavior: 'smooth' });
 });
 contact.addEventListener('click', (e) => {
     e.preventDefault();
