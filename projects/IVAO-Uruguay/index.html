@@ -6,38 +6,147 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>IVAO Uruguay</title>
 		<link rel="stylesheet" href="../../public/styles/styles.css">
+        <link rel="stylesheet" href="./styles/index.css">
 		<link rel="icon" href="./img/uy.png">
     </head>
     <body>
-        <header class="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10">
+        <header class="sticky top-0 z-50 grid grid-cols-2 bg-white shadow-md p-5 md:px-10">
             <div class="relative flex items-center h-10 cursor-pointer my-auto">
                 <img class="h-14" src="./img/uy.png">
                 <p class="px-4 font-bold">IVAO Uruguay</p>
             </div>
-            <div class="flex items-center space-x-4 justify-end text-blue-800">
-                <a href="" class="">Login</a>
-            </div>
+            <div class="flex items-center py-2 justify-end">
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Inicio</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Historia</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Staff</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Sobre IVAO</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Reglas y Regulaciones</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Controladores</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">NOTAM</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">¿Como Empezar?</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Dependencias ATC</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Procedimientos ATC</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Sector File</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Pilotos</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 text-sm pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">NOTAM</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">¿Como Empezar?</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Procedimientos</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Aerolineas Virtuales</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Operaciones Especiales</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Formacion</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Historia</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Staff</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Sobre IVAO</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Reglas y Regulaciones</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Tours/Eventos</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Historia</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Staff</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Sobre IVAO</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Reglas y Regulaciones</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Recursos</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Historia</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Staff</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Sobre IVAO</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Reglas y Regulaciones</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown inline-block relative">
+                    <button class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center">
+                      <span class="mr-1">Comunidad</span>
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    </button>
+                    <ul class="dropdown-menu absolute hidden text-gray-900 pt-1">
+                      <li class=""><a class="rounded-t text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Historia</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Staff</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Sobre IVAO</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Reglas y Regulaciones</a></li>
+                      <li class=""><a class="rounded-b text-blue-900 hover:text-white bg-white hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="inline-block relative">
+                      <a target="_blank" href="https://ivao.aero"><span class="bg-white font-semibold py-2 px-4 rounded inline-flex items-center mr-1">IVAO</span></a>
+                </div>
+            </nav>
         </header>
         <footer>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-100 text-gray-600">
                 <div class="space-y-4 text-xs text-blue-900">
                     <h5 class="font-bold">CONTACT</h5>
-                    <p>Coordinador General: <a class="font-bold" href="mailto:uy-dir@ivao.aero">Email</a></p>
-                    <p>Entrenamientos: <a class="font-bold" href="mailto:uy-tc@ivao.aero">Email</a></p>
-                    <p>Eventos y Tours: <a class="font-bold" href="mailto:uy-ec@ivao.aero">Email</a></p>
+                    <p>Coordinador General: <a class="font-bold" href="mailto:uy-dir@ivao.aero"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg></a></p>
+                    <p>Entrenamientos:
+                        <a class="font-bold" href="mailto:uy-tc@ivao.aero">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </a>
+                    </p>
+                    <p>Eventos y Tours:
+                        <a class="font-bold" href="mailto:uy-ec@ivao.aero">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </a>
+                    </p>
                 </div>
                 <div class="space-y-4 text-xs text-blue-900">
                     <h5 class="font-bold">LINKS</h5>
-                    <p><a href="ar.ivao.aero">IVAO Argentina</a></p>
-                    <p><a href="br.ivao.aero">IVAO Brasil</a></p>
-                    <p><a href="cl.ivao.aero">IVAO Chile</a></p>
+                    <p><a target="_blank" href="https://ar.ivao.aero">IVAO Argentina</a></p>
+                    <p><a target="_blank" href="https://br.ivao.aero">IVAO Brasil</a></p>
+                    <p><a target="_blank" href="https://cl.ivao.aero">IVAO Chile</a></p>
                 </div>
                 <div class="space-y-4 text-xs text-blue-900">
-                    <h5 class="font-bold">Follow Us</h5>
-                    <p><a href="discord.uy.ivao.aero">Discord</a></p>
-                    <p><a href="br.ivao.aero">IVAO Brasil</a></p>
-                    <p><a href="cl.ivao.aero">IVAO Chile</a></p>
+                    <h5 class="font-bold">FOLLOW US</h5>
+                    <p><a target="_blank" href="https://discord.uy.ivao.aero">Discord</a></p>
+                    <p><a target="_blank" href="https://twitter.com/IVAOUY">Twitter</a></p>
+                    <p><a target="_blank" href="https://www.instagram.com/ivaouy/">Instagram</a></p>
                 </div>
+                
             </div>
         </footer>
     </body>
