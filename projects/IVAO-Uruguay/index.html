@@ -5,8 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>IVAO Uruguay</title>
-		<link rel="stylesheet" href="../../public/styles/styles.css">
-        <link rel="stylesheet" href="./styles/index.css">
+		<link rel="stylesheet" href="../../public/styles/styles.css"/>
+        <link rel="stylesheet" href="./styles/index.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
 		<link rel="icon" href="./img/uy.png">
     </head>
     <body>
@@ -112,9 +113,22 @@
                 </div>
             </nav>
         </header>
+        <main>
+            <section id="carrousel">
+                <div class="carousel relative rounded overflow-hidden shadow-xl">
+                    <div class="carousel-inner relative overflow-hidden w-full">
+                        <!--Slide 1-->
+                        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked"/>
+                        <div class="carousel-item absolute opacity-0 bg-center" style="height: 500px; background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg);">
+                        </div>
+                        <label for="carousel-3" class="control-1 w-10 h-10 ml-2"
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-100 text-gray-600">
-                <div class="space-y-4 text-xs text-blue-900">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-blue-800 text-white">
+                <div class="space-y-4 text-xs">
                     <h5 class="font-bold">CONTACT</h5>
                     <p>Coordinador General: <a class="font-bold" href="mailto:uy-dir@ivao.aero"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -134,13 +148,13 @@
                         </a>
                     </p>
                 </div>
-                <div class="space-y-4 text-xs text-blue-900">
+                <div class="space-y-4 text-xs">
                     <h5 class="font-bold">LINKS</h5>
                     <p><a target="_blank" href="https://ar.ivao.aero">IVAO Argentina</a></p>
                     <p><a target="_blank" href="https://br.ivao.aero">IVAO Brasil</a></p>
                     <p><a target="_blank" href="https://cl.ivao.aero">IVAO Chile</a></p>
                 </div>
-                <div class="space-y-4 text-xs text-blue-900">
+                <div class="space-y-4 text-xs">
                     <h5 class="font-bold">FOLLOW US</h5>
                     <p><a target="_blank" href="https://discord.uy.ivao.aero">Discord</a></p>
                     <p><a target="_blank" href="https://twitter.com/IVAOUY">Twitter</a></p>
