@@ -1,0 +1,36 @@
+/* Google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* variables */
+:root {
+  --navbar-sticky-background: #6a50df;
+  --color-white: #fff;
+  --webkit-scrollbar-track: #f1f1f1;
+  --webkit-scrollbar-thumb: #888;
+}
+/* Reset */
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+  }
+
+  html{
+      scroll-behavior: smooth;
+  }
+
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--webkit-scrollbar-track);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--webkit-scrollbar-thumb);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
