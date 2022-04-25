@@ -1,9 +1,9 @@
-// Nav panel
+// NAV MENU
 let navMenu = document.getElementById("nav-menu"),
-	navToggle = document.getElementById("nav-toggle"),
-	navClose = document.getElementById("nav-close");
+  navToggle = document.getElementById("nav-toggle"),
+  navClose = document.getElementById("nav-close");
 
-// Menu Show
+// MENU SHOW
 if (navToggle) {
   navToggle.addEventListener("click", () => {
     navMenu.classList.add("show-menu");
@@ -26,6 +26,7 @@ function linkAction() {
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
+
 // HEADER SHADOW
 function scrollHeader() {
   const nav = document.getElementById("header");
@@ -34,7 +35,7 @@ function scrollHeader() {
 }
 window.addEventListener("scroll", scrollHeader);
 
-// DARK/LIGHT THEME
+// DARK/LIGHT MODE
 const themeButton = document.getElementById("theme-button");
 const darkTheme = "dark-theme";
 const iconTheme = "uil-sun";
